@@ -1,0 +1,35 @@
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+.yellow {
+    background-color: yellow;
+    min-height: 20px;
+    width: 20px;
+}
+
+.orange {
+    background-color: orange;
+    min-height: 20px;
+    width: 20px;
+}
+
+.red {
+    background-color: red;
+    min-height: 20px;
+    width: 20px;
+}
+
+.purple {
+    background-color: purple;
+    min-height: 20px;
+    width: 20px;
+}
+
+.blue {
+    background-color: blue;
+    min-height: 20px;
+    width: 20px;
+}
+
