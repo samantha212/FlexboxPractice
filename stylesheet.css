@@ -1,35 +1,59 @@
-.parent {
+.alignParent {
     display: flex;
-    justify-content: center;
+    margin: 25px;
+    /*justify-content: center;*/
 }
 
 .yellow {
     background-color: yellow;
-    min-height: 20px;
-    width: 20px;
+    min-height: 40px;
+    width: 40px;
+    order: 1;
 }
 
 .orange {
     background-color: orange;
-    min-height: 20px;
-    width: 20px;
+    min-height: 40px;
+    width: 40px;
+    order: 2;
 }
 
 .red {
     background-color: red;
-    min-height: 20px;
-    width: 20px;
+    min-height: 40px;
+    width: 40px;
+    order: 3;
 }
 
 .purple {
     background-color: purple;
-    min-height: 20px;
-    width: 20px;
+    min-height: 40px;
+    width: 40px;
+    order: 4;
 }
 
 .blue {
     background-color: blue;
-    min-height: 20px;
-    width: 20px;
+    min-height: 40px;
+    width: 40px;
+    order: 5;
 }
 
+.directionParent {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.spaceParent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.alignParent {
+    display: flex;
+    height: 65px;
+}
+
+.alignParent .child {
+    align-items: stretch;
+}
