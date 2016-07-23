@@ -4,44 +4,43 @@
     /*justify-content: center;*/
 }
 
+.child {
+    min-height: 40px;
+    min-width: 40px;
+}
+
 .yellow {
     background-color: yellow;
-    min-height: 40px;
-    width: 40px;
     order: 1;
 }
 
 .orange {
     background-color: orange;
-    min-height: 40px;
-    width: 40px;
     order: 2;
 }
 
 .red {
     background-color: red;
-    min-height: 40px;
-    width: 40px;
     order: 3;
 }
 
 .purple {
     background-color: purple;
-    min-height: 40px;
-    width: 40px;
     order: 4;
 }
 
 .blue {
     background-color: blue;
-    min-height: 40px;
-    width: 40px;
     order: 5;
 }
 
 .directionParent {
     display: flex;
     flex-direction: column-reverse;
+}
+
+.directionParent .child {
+    width: 50px;
 }
 
 .spaceParent {
@@ -56,4 +55,29 @@
 
 .alignParent .child {
     align-items: stretch;
+}
+
+.alignCenterParent {
+    display: flex;
+    align-items: flex-start;
+}
+
+.alignCenterParent .yellow {
+    height: 60px;
+}
+
+.alignCenterParent .orange {
+    height: 45px;
+}
+
+.alignCenterParent .red {
+    height: 90px;
+}
+
+.alignCenterParent .purple {
+    height: 30px;
+}
+
+.alignCenterParent .blue {
+    height: 55px;
 }
