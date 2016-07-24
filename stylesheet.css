@@ -81,3 +81,30 @@
 .alignCenterParent .blue {
     height: 55px;
 }
+
+.flexWrapParent {
+    display: flex;
+    width: 400px;
+    border: solid 1px black;
+    flex-wrap: wrap-reverse;
+}
+
+.flexWrapParent .yellow {
+    width: 140px;
+}
+
+.flexWrapParent .orange {
+    width: 260px;
+}
+
+.flexWrapParent .red {
+    width: 90px;
+}
+
+.flexWrapParent .purple {
+    width: 130px;
+}
+
+.flexWrapParent .blue {
+    width: 175px;
+}
