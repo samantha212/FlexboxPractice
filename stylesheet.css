@@ -108,3 +108,14 @@
 .flexWrapParent .blue {
     width: 175px;
 }
+
+.rowWrapParent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.rowWrapParent .child {
+    width: 200px;
+    height: 200px;
+}
